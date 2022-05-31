@@ -46,7 +46,7 @@ app.post("/", function(req, res){
                     city:       cityName,
                     icon:       icon,
                     image:      imageURL    
-                });
+                })
             // res.write("<h1>Temprature of " + query + " is "+ temp +" degrees celcius.</h1>");
             // res.write("<img src=" + imageURL + ">");
             
