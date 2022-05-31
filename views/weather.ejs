@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App </title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  </head>
+  <body>
+    <!-- <h1> the temprature is  <%= temprature %> </h1> -->
+    <div class="container">
+        <div class="header">
+          <h1> Weather App By Abhishek Soni</h1>
+          <div class="header-in">
+            <img src="<%= image %>" alt="">
+            <h2><%= city %> </h2>
+          </div> 
+        </div>
+        <div class="content">
+          <div class="general-information">    
+            <div class="detail-section">
+              <div class="detail">
+                <div class="title">Wind</div>
+                <div class="value"> <%= windSpeed %></div>
+              </div>
+              <div class="detail">
+                <div class="title">Temprature</div>
+                <div class="value"> <%= temprature %> ° C</div>
+              </div>
+              <div class="detail">
+                <div class="title">Sky </div>
+                <div class="value"> <%= descrip %></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p id="copyright"> Copyright@Abhson
+        </p>
+    </div>
+  </body>
+</html>

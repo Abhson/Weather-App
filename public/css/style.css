@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Lemonada:wght@300&family=Poppins&family=Rubik:wght@300&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    max-height: 100vh;
+}
+
+body{
+    background: #43AFFC;
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    box-sizing: border-box;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top: 20%;
+    max-width: 90%;
+    height: 50%;
+    width: 80%;
+    background-color:orangered;
+    box-shadow: 0 5px 10px black;
+}
+
+
+
+.header{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 30, 0);
+}
+
+.header h1{
+    font-family: lemonada;
+    font-size: 1em;
+    border-bottom: 2px solid #1c2830;
+}
+
+
+
+.header-in{
+    font-family: poppins;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.header-in h2{
+    font-size: 50px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.detail-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.detail{
+    border-right: 2px solid grey;
+}
+
+
+.title{
+    font-family: sans-serif;
+    margin-right: 5px;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.value{
+    font-family: arvo;
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.detail:last-child{
+    border-right: none;
+}
+
+#copyright{
+    font-family: monospace;
+    text-align: right;
+    position: absolute;
+    bottom: 3px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    
+
+    .container{
+        box-sizing: border-box;
+        position: absolute;
+        align-items: center;
+        text-align: center;
+        top: 20%;
+        max-width: 90%;
+        height: 60%;
+        width: 90%;
+        background-color:orangered;
+        box-shadow: 0 5px 10px black;
+    }
+    
+    
+    
+    .header{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(255, 30, 0);
+    }
+    
+    .header h1{
+        font-family: lemonada;
+        font-size: 1em;
+        border-bottom: 2px solid #1c2830;
+    }
+    
+    
+    
+    .header-in{
+        font-family: poppins;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .header-in h2{
+        font-size: 50px;
+    }
+    
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .detail-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 50px;
+    }
+    
+    .detail{
+        border-right: 2px solid grey;
+    }
+    
+    
+    .title{
+        font-family: sans-serif;
+        margin-right: 5px;
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    
+    .value{
+        font-family: arvo;
+        margin-right: 5px;
+        font-size: 25px;
+    }
+    
+    .detail:last-child{
+        border-right: none;
+    }
+
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
