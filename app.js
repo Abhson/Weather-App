@@ -53,7 +53,7 @@ app.post("/", function(req, res){
             // res.send();
 
         })
-    });
+    })
 
     // res.send("server is up and running..");
 
